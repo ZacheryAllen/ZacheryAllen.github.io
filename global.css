@@ -7,8 +7,21 @@ body{
 #titlebar{
 	flex-direction: column;
 	background-color: #1E2339;
+	width: 100%;
 }
 #pagetitle{
 	background-color: #272F46;
 	padding: 5px;
+}
+h1{
+	flex: 2;
+	text-align: center;
+	color: #B1A99A;
+}
+#navbar{
+	flex: 1;
+}
+.navitem{
+	flex: 1;
+	text-align: center;
 }
