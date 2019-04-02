@@ -3,6 +3,7 @@
 }
 body{
 	background-color: #32415E;
+	padding: none;
 }
 #titlebar{
 	flex-direction: column;
