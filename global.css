@@ -38,6 +38,13 @@ h1{
 .navitem{
 	margin: auto;
 }
+.navitem > a{
+	color: #dacec0;
+	text-decoration: none;
+}
+.navitem > a:hover{
+	font-weight:bold;
+}
 #content{
 	flex-direction: row;
 	align-items: stretch;
