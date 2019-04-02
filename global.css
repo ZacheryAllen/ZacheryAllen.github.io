@@ -38,6 +38,15 @@ h1{
 .navitem{
 	margin: auto;
 }
+#content{
+	flex-direction: row;
+}
+#main{
+	-ms-flex: 5;
+	flex: 5;
+}
 #related{
 	background-color: #32415E;
+	-ms-flex: 1;
+	flex: 1;
 }
