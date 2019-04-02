@@ -60,4 +60,7 @@ h1{
 	background-color: #a89070;
 	-ms-flex: 1;
 	flex: 1;
+	-webkit-box-shadow: -1px 62px 12px -59px rgba(0,0,0,1) inset;
+	-moz-box-shadow: -1px 62px 12px -59px rgba(0,0,0,1) inset;
+	box-shadow: -1px 62px 12px -59px rgba(0,0,0,1) inset;
 }
