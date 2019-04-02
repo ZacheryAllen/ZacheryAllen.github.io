@@ -32,6 +32,7 @@ h1{
 #navbar{
 	-ms-flex: 1 0 0;
 	flex: 1 0 0;
+	text-align: center;
 }
 .navitem{
 	-ms-flex: 1 0 0;
