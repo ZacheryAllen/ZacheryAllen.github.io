@@ -36,6 +36,7 @@ h1{
 	-ms-flex: 1 0 0;
 	flex: 1 0 0;
 	text-align: center;
+	border-top: 2px solid black;
 }
 .navitem{
 	margin: auto;
