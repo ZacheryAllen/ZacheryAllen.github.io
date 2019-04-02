@@ -3,18 +3,19 @@
 }
 body{
 	background-color: #32415E;
-	padding: none;
+	padding: 0px;
 }
 #titlebar{
 	flex-direction: column;
 	background-color: #1E2339;
 	width: 100%;
-	margin: none;
-	padding: none;
+	margin: 0px;
+	padding: 0px;
 }
 #pagetitle{
 	background-color: #272F46;
 	padding: 5px;
+	margin: 0px;
 }
 h1{
 	flex: 2;
