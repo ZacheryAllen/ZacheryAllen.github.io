@@ -128,18 +128,6 @@ section {
 	align-items: stretch;
 }
 
-article {
-	-webkit-box-flex: 5;
-	-moz-box-flex: 5;
-	-ms-box-flex: 5;
-	box-flex: 5;
-
-	-webkit-flex: 5;
-	-moz-flex: 5;
-	-ms-flex: 5;
-	flex: 5;
-}
-
 aside {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
@@ -150,9 +138,25 @@ aside {
 	-moz-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
+	
+	flex-direction: column;
 
 	background-color: #a89070;
 	-webkit-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
 	-moz-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
 	box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
+}
+
+article {
+	-webkit-box-flex: 5;
+	-moz-box-flex: 5;
+	-ms-box-flex: 5;
+	box-flex: 5;
+
+	-webkit-flex: 5;
+	-moz-flex: 5;
+	-ms-flex: 5;
+	flex: 5;
+	
+	flex-direction: column;
 }
