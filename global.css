@@ -133,6 +133,7 @@ aside {
 	flex-flow: column;
 	width: 160px;
 	padding: 5px;
+	align-items: stretch;
 
 	background-color: #a89070;
 	-webkit-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
