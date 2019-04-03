@@ -130,7 +130,7 @@ section {
 
 aside {
 	display:flex;
-	flex-direction: column;
+	flex-flow: column;
 	width: 160px;
 	padding: 5px;
 
@@ -138,6 +138,11 @@ aside {
 	-webkit-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
 	-moz-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
 	box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
+}
+
+aside > p{
+	display: block;
+	flex: 1;
 }
 
 article {
