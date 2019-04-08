@@ -1,0 +1,23 @@
+aside a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+aside a.active {
+  background-color: #d2b48c;
+  border-radius: 15px 0px 0px 15px;
+}
+
+aside a:hover:not(.active) {
+  background-color: #d6bb97;
+  border-radius: 15px 0px 0px 15px;
+  color: white;
+}
+
+aside a.sidenav1{
+  -webkit-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
+  box-shadow: -1px 62px 12px -59px rgba(0, 0, 0, 1) inset;
+}
