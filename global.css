@@ -161,6 +161,7 @@ article {
 
   flex-direction: column;
   padding: 10px;
+  align-items: initial;
 }
 
 h2{
