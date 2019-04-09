@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Zach Allen
+  </title>
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./sidenav.css" />
+  <style>
+    table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td{
+  margin: none;
+  border: 1px solid black;
+  width: 33%;
+  border-collapse: collapse;
+  padding: 2px;
+}
+.col3{
+  text-align: right;
+}
+  </style>
+</head>
+
+<body>
+  <header class="flex-container">
+    <div class="flex-container" id="pagetitle">
+      <h1>
+        PC Builds
+      </h1>
+      <h4>
+        Current and Planned
+      </h4>
+    </div>
+    <nav class="flex-container">
+      <div class="navitem">
+        <a href="./projects.html">
+					Current Projects
+				</a>
+      </div>
+      <div class="navitem">
+        <a href="./pc_builds.html">
+					Build Specs
+				</a>
+      </div>
+    </nav>
+  </header>
+  <section class="flex-container">
+    <aside class="flex-container">
+      <a href="./pc_builds_1.html" class="active sidenav1">
+        Current Desktop
+      </a>
+      <a href="./pc_builds_2.html">
+        Desktop V2.0
+      </a>
+    </aside>
+    <article class="flex-container">
+      <h2>
+        Mid-Range Power
+      </h2>
+      <img src="./cube.jpg" alt="Glamor shots coming soon" />
+      <table>
+        <tr>
+          <th>
+            Part Type
+          </th>
+          <th>
+            Model
+          </th>
+          <th>
+            Estimated Price (USD)
+          </th>
+        </tr>
+        <tr>
+          <td>
+            PSU:
+          </td>
+          <td>
+            Have to look at it again.
+          </td>
+          <td class="col3">
+            ????????
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Motherboard:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=2MG-000K-00028">Gigabyte GA-970-Gaming-SLI (Rev 1.0)</a>
+          </td>
+          <td class="col3">
+            $120
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Processor:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16819113284">AMD FX-8350 Black Edition</a>
+          </td>
+          <td class="col3">
+            $88
+          </td>
+        </tr>
+        <tr>
+          <td>
+            RAM:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIAG7R8P57140">G.Skill Ripjaws DDR3</a>
+          </td>
+          <td class="col3">
+            $185
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CPU Cooler:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIA8EF7MW9863">Thermaltake 120mm AIO Liquid Cooling System</a>
+          </td>
+          <td class="col3">
+            $70
+          </td>
+        </tr>
+        <tr>
+          <td>
+            GPU:
+          </td>
+          <td>
+            <a href="https://www.amazon.com/Gigabyte-N75toc-Geforce-Graphic-Express/dp/B00V5HR2Q2/ref=sr_1_11?keywords=gigabyte+gtx+750+ti&qid=1554828055&s=gateway&sr=8-11">Gigabyte GTX 750 Ti</a>
+          </td>
+          <td class="col3">
+            $170
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Wireless Card
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16833320181&Description=wireless%20card&cm_re=wireless_card-_-33-320-181-_-Product">Asus PCE-AC56</a>
+          </td>
+          <td class="col3">
+            $65
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sound Card:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIA25V80H8992&Description=sound%20blaster%20z&cm_re=sound_blaster_z-_-9SIA25V80H8992-_-Product">Creative Labs Sound Blaster Z</a>
+          </td>
+          <td class="col3">
+            $92
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Optical Drive:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16827135306">Asus Blu-Ray Burner</a>
+          </td>
+          <td class="col3">
+            $83
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Case:
+          </td>
+          <td>
+            <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16811139022">Corsair Air 540</a>
+          </td>
+          <td class="col3">
+            $130
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:right;">
+            Grand Total:
+          </td>
+          <td class="col3">
+            $1,003 + PSU price
+          </td>
+        </tr>
+      </table>
+    </article>
+  </section>
+</body>
+
+</html>
